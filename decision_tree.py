@@ -20,3 +20,4 @@ plt.scatter(class_1[:, 0], class_1[:, 1], s = 75, c = 'white', linewidths = 1, m
 plt.title('Входные данные')
 
 X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size = 0.25, random_state = 5)
+
